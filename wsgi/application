@@ -19,4 +19,5 @@ except IOError:
     pass
 
 from myflaskapp import app as application
+from blueprintexample import app as application
 
