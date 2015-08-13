@@ -1,6 +1,7 @@
 
 env:
   global:
+      - OPENSHIFT_REPO=ssh://55ccdb030c1e66334e000216@python123-thenetworkguy.rhcloud.com/~/git/python123.git/
      - OPENSHIFT_REPO=ssh://55cbc9482d52718a0a0000dc@python-thenetworkguy.rhcloud.com/~/git/python.git
 
 language: python
